@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int verification(int tab[],int nb,int x){
-    for(int i=1;i<=nb;i++){
+    for(int i=0;i<nb;i++){
         if(tab[i]==x){
             return 1;
         }else{
